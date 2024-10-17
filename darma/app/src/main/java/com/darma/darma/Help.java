@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuInflater;
 
 /**
- * Created by Danilo on 23/04/2017.
+ * Created by Andre on 23/04/2017.
  */
 
 public class Help extends AppCompatActivity {
