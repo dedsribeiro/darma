@@ -1,7 +1,7 @@
 package com.darma.darma;
 
 /**
- * Created by Danilo on 07/05/2017.
+ * Created by Andre on 07/05/2017.
  */
 
 public class Config {
