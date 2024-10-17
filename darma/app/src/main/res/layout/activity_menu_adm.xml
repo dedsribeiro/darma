@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp">
+
+        <TextView
+            android:text="Opções do Administrador"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icone"
+            android:id="@+id/imageView7"
+            android:layout_above="@+id/textView6"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnmenuadmfun"
+            android:background="@drawable/botaoadmfun"
+            android:layout_alignBaseline="@+id/btnmenuadm"
+            android:layout_alignBottom="@+id/btnmenuadm"
+            android:layout_toEndOf="@+id/btnmenuadm"
+            android:layout_marginStart="25dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnmenuadmrelatorio"
+            android:background="@drawable/botaoadmrelatorio"
+            android:layout_below="@+id/btnmenuadm"
+            android:layout_alignStart="@+id/btnmenuadm"
+            android:layout_marginTop="19dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsairadm"
+            android:background="@drawable/botaoadmsair"
+            android:layout_alignBaseline="@+id/btnmenuadmrelatorio"
+            android:layout_alignBottom="@+id/btnmenuadmrelatorio"
+            android:layout_alignStart="@+id/btnmenuadmfun" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="53dp"
+            android:layout_marginTop="39dp"
+            android:id="@+id/btnmenuadm"
+            android:background="@drawable/botaomenuadm"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

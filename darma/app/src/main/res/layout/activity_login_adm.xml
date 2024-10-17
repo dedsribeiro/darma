@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="AUTENTICAÇÃO ADMINISTRADOR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="16sp"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icone"
+            android:id="@+id/imageView5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView">
+
+            <TextView
+                android:text="CPF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:id="@+id/textView3"
+                android:textSize="18sp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="55dp"
+                android:layout_marginStart="40dp" />
+
+            <TextView
+                android:text="Senha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:textSize="18sp"
+                android:layout_alignParentStart="true"
+
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="113dp"
+                android:layout_marginStart="40dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/txtUserFun"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/txtLoginAdm"
+                android:layout_alignStart="@+id/txtLoginAdm" />
+
+            <EditText
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/txtLoginAdm"
+                android:layout_width="wrap_content"
+                android:allowUndo="false"
+                android:ellipsize="middle"
+                android:gravity="center_vertical|fill_vertical"
+                android:layout_alignWithParentIfMissing="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:saveEnabled="true"
+                android:scrollIndicators="top"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="horizontal|vertical"
+                android:singleLine="true"
+                android:soundEffectsEnabled="true"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                android:layout_marginTop="43dp"
+                android:layout_alignParentTop="true"
+                android:maxLength="11"
+                android:layout_toEndOf="@+id/textView5" />
+
+            <Button
+                android:text="Entrar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnEntrarAdm"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/cardview_light_background"
+                android:layout_marginTop="36dp"
+                android:layout_below="@+id/txtUserFun"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

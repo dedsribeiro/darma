@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Status: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView24"
+            android:layout_marginTop="18dp"
+            android:id="@+id/textView21"
+            android:layout_alignStart="@+id/textView24"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView11"
+            android:layout_toEndOf="@+id/textView11"
+            android:id="@+id/idColeta"
+            android:textSize="16sp"
+            android:textStyle="normal|italic" />
+
+        <TextView
+            android:text="Nome do Cliente: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView11"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="38dp"
+            android:id="@+id/textView17"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_toEndOf="@+id/textView17"
+            android:id="@+id/nomeColeta"
+            android:textSize="16sp"
+            android:textStyle="normal|italic"/>
+
+        <TextView
+            android:text="Telefone: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView17"
+            android:layout_alignStart="@+id/textView17"
+            android:layout_marginTop="18dp"
+            android:id="@+id/textView20"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView20"
+            android:layout_toEndOf="@+id/textView20"
+            android:id="@+id/telefoneColeta"
+            android:textSize="16sp"
+            android:textStyle="normal|italic"/>
+
+        <TextView
+            android:text="Endereço: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView20"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_marginTop="18dp"
+            android:id="@+id/textView22"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView22"
+            android:layout_toEndOf="@+id/textView22"
+            android:id="@+id/enderecoColeta"
+            android:textSize="16sp"
+            android:textStyle="normal|italic"
+            />
+
+        <TextView
+            android:text="Data da Requisição: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView22"
+            android:layout_alignStart="@+id/textView22"
+            android:layout_marginTop="35dp"
+            android:id="@+id/textView24"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView24"
+            android:layout_toEndOf="@+id/textView24"
+            android:id="@+id/dataColeta"
+            android:textSize="16sp"
+            android:textStyle="normal|italic"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView26"
+            android:layout_alignEnd="@+id/nome"
+            android:id="@+id/statusColeta"
+            android:textSize="16sp"
+            android:textStyle="normal|italic"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="257dp" />
+
+        <TextView
+            android:text="Requisição número: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="22dp"
+            android:id="@+id/textView11"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/endereco"
+            android:textSize="16sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Recolhido em: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView21"
+            android:layout_marginTop="18dp"
+            android:id="@+id/textView25"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:layout_marginStart="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView25"
+            android:layout_toEndOf="@+id/textView25"
+            android:id="@+id/dataRetirada"
+
+            android:textSize="16sp"
+            android:textStyle="normal|italic"/>
+
+    </RelativeLayout>
+</LinearLayout>

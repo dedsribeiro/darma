@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.darma.darma">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".Sobre" android:screenOrientation="portrait"/>
+        <activity android:name=".Help" android:screenOrientation="portrait"/>
+        <activity android:name=".LoginAdm" android:screenOrientation="portrait"/>
+        <activity android:name=".LoginFuncionario" android:screenOrientation="portrait"/>
+        <activity android:name=".CadastroAdm" android:screenOrientation="portrait" />
+        <activity android:name=".Relatorios" android:screenOrientation="portrait" />
+        <activity android:name=".CadastroFun" android:screenOrientation="portrait"/>
+        <activity android:name=".PrincipalCliente" android:screenOrientation="portrait"/>
+        <activity android:name=".RelatorioEspera" android:screenOrientation="portrait"/>
+        <activity android:name=".VerColetasEspera" android:screenOrientation="portrait"/>
+        <activity android:name=".VerTodasColetas" android:screenOrientation="portrait"/>
+        <activity android:name=".VerColetasFechada" android:screenOrientation="portrait"/>
+        <activity android:name=".RelatorioFechado" android:screenOrientation="portrait"/>
+        <activity android:name=".VerColeta" android:screenOrientation="portrait"/>
+        <activity android:name=".Menu_Adm" android:screenOrientation="portrait"
+            android:label="@string/app_menu_adm" />
+        <activity android:name=".Menu_Fun" android:screenOrientation="portrait"
+            android:label="@string/app_menu_fun" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+
+
+    </application>
+
+</manifest>

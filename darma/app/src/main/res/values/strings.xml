@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DARMA</string>
+    <string name="app_menu_adm">Administrador</string>
+    <string name="app_menu_fun">Funcionário</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+
+</resources>

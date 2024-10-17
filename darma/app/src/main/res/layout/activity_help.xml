@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/fab_margin">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:text="Perguntas Frequentes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:textSize="18sp" />
+
+            <TextView
+                android:text="1) Como requisitar a coleta de lixo reciclável?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:text="     Insira seu nome e endereço no campo soliticado e pressione o botão enviar. Assim, seus dados serão entregues à um funcionário específico para realização da tarefa. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:layout_weight="0.04" />
+
+            <TextView
+                android:text="2) Como saberei se a solicitação foi enviada ao funcionário?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic" />
+
+            <TextView
+                android:text="     Aparecerá à você, usuário, uma notificação de entrega de solicitação. Caso não apareça, tente novamente. "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:layout_weight="0.04" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

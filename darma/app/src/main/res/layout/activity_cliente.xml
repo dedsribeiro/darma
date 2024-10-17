@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29"
+            android:background="@drawable/icone"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="REQUISIÇÃO DE COLETA"
+        android:layout_weight="0.11"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:text="Nome do Cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNome"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtNomeColeta"
+        android:textColorLink="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_weight="0.06"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="Telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTelefone"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/txtTelefoneColeta"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_weight="0.05"
+        android:textAlignment="center"
+        android:inputType="number" />
+
+    <TextView
+        android:text="Endereço"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editarLugar"
+        android:editable="false"
+        android:layout_weight="0.07"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:textAlignment="center">
+        <requestFocus></requestFocus>
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/layButtonH"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="0.04"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meu Local"
+            android:id="@+id/botaoPegaLugar"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/activity_vertical_margin"
+            android:layout_weight="0.09"></Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layloadingH"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:id="@+id/progressBar1"
+            android:layout_height="wrap_content"></ProgressBar>
+    </LinearLayout>
+
+    <Button
+        android:text="Enviar Requisição"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/btnEnviarRequisicao"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" />
+</LinearLayout>

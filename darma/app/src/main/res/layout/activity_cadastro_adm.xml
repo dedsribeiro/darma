@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView29"
+            android:background="@drawable/icone"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="CADASTRO DE ADMINISTRADORES"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="0dp"
+        android:paddingTop="1dp" />
+
+    <TextView
+        android:text="Nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNomeaDM"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtNomeAdm"
+        android:textColorLink="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_weight="0.06"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="CPF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTelefone"
+        android:maxLength="11"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/txtCpfAdm"
+        android:textColorLink="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_weight="0.06"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:text="Senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView28"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/txtSenhaAdm"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:layout_weight="0.05"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:id="@+id/layButtonH"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:layout_weight="0.04"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layloadingH"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center"></LinearLayout>
+
+    <Button
+        android:text="Cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/btnCadastrarAdm"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:text="Cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:id="@+id/btnCancelarAdm"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp" />
+
+</LinearLayout>

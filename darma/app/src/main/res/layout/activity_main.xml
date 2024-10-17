@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:backgroundTint="@android:color/background_light"
+    android:foregroundTint="#7f2020"
+    android:foregroundTintMode="multiply"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="MainActivity"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="588dp"
+        android:background="@android:color/background_light"
+        android:layout_weight="0.63">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icone"
+            android:id="@+id/imageView4"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFuncionario"
+            android:background="@drawable/funcbutton"
+            android:layout_below="@+id/btnAdm"
+            android:layout_alignStart="@+id/btnCliente"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCliente"
+            android:background="@drawable/clientebutton"
+            android:layout_below="@+id/btnFuncionario"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:text="Como deseja acessar o sistema?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:textColor="#A8A8A8"
+            android:textSize="16sp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@+id/imageView4"
+            android:layout_centerHorizontal="true"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAdm"
+            android:background="@drawable/admbutton"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/btnFuncionario"
+            android:layout_marginTop="8dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
